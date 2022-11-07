@@ -1,32 +1,45 @@
-# Get YouTube Subscribers - Backend Capstone Project
-1. First **install npm dependencies** of **express** and **mongoose** using `npm install` command.
-2. **Create database in your local computer** using `node src/createDatabase.js` command.
-3. **Start the backend server** using `npm start` or `node src/index.js` command. 
+# Get YouTube Subscribers - Backend Capstone Project by Sri Srinivasan S and Murtuza Bharmal
 
-## HTTP request methods used in the project
-1. GET [http://localhost:3000/subscribers](http://localhost:3000/subscribers) to get array of subscribers.
+LINK -- https://grow.almabetter.com/web3/projects/Get-Youtube-Subscribers
 
-2. GET [http://localhost:3000/subscribers/names](http://localhost:3000/subscribers/names) to get array of subscribers with only name and subscribedChannel fields.
+BACKEND CAPSTONE PROJECT - **Team of Sri Srinivasan S and Murtuza Bharmal** - Cohort Satoshi
 
-3. GET [http://localhost:3000/subscribers/:id](http://localhost:3000/subscribers/:id) to get a subscriber by its unique id.
-> **Note:** If the wrong ***:id*** is entered in the url, then the client will encounter ```400 Bad Request``` status code indicating that the server cannot or will not process the request due to something that is perceived to be a client error.
+Member 1
 
-4. POST [http://localhost:3000/subscribers](http://localhost:3000/subscribers) to add a new subscriber to the database. Add the data in JSON format.
-```
-{
-    "name": "Dummny",
-    "subscribedChannel": "Channel"
-}
-```
+Name - Sri Srinivasan S
+Email -srini624618@gmail.com
+Contribution - 
+1.Created the http GET request to Display the written message on the homepage to the client.
+2.Created the http GET request to get a list of all users stored in the database.
+3.Created the http GET request to get a list of users with only name and subscribedChannel field.
 
-5. PUT [http://localhost:3000/subscribers/:id](http://localhost:3000/subscribers/:id) to update the data of a subscriber by its unique id.
-```
-{
-    "name": "Update Name",
-    "subscribedChannel": "Update Channel"
-}
-```
+Member 2 
 
-6. DELETE [http://localhost:3000/subscribers/:id](http://localhost:3000/subscribers/:id) to delete a subscriber by its unique id.
+Name - Murtuza Bharmal
+Email - mbharmal.info@gmail.com
+Contribution - 
+1.Created the http GET request to get a particular user with its id.
+2.Wrote and formatted Github README description in Markdown language.
+3.Made the project demo video and published it on Youtube.
 
-> ***app.use()*** is used to handle all the unwanted requests. It will return ```404 Not Found``` status code indicating that the requested resource could not be found but may be available in the future.
+
+short summary of your Capstone project :
+
+Created an application using MongoDB , NodeJS and expressjs to get the array of subscribers from the data present in MongoDB.
+
+=> Initially, all the dependencies and node modules are installed using the “npm install” command. 
+=> Then, run the “node src/createDatabase.js” to store the dummy data from data.js file to your local MongoDB server in your computer. 
+=> At last, run “node src/index.js” or “npm start” to start the backend server.
+
+We’ve used 3 different main http requests for Searching the data in the database.
+
+1. GET http://localhost:3000/ =>  which is used to Display the written message on the homepage to the client.
+
+2. GET http://localhost:3000/subscribers => request is used to get an array of all subscribers from the database.
+
+3. GET http://localhost:3000/subscribers/names => request is used to get an array of all subscribers with only name and subscribedChannel fields from the database.
+
+4. GET http://localhost:3000/subscribers/:id => request is used to get a particular user from the database,client need to replace the  :id is replaced by the user’s id in the url to get particular data from the databases.
+
+
+

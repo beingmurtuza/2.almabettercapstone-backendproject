@@ -5,7 +5,7 @@ BACKEND CAPSTONE PROJECT - **Team of Sri Srinivasan S and Murtuza Bharmal** - Co
 Member 1
 
 Name - Sri Srinivasan S
-Email -srini624618@gmail.com
+Email - srini624618@gmail.com
 Contribution - 
 1.Created the http GET request to Display the written message on the homepage to the client.
 2.Created the http GET request to get a list of all users stored in the database.
@@ -20,7 +20,7 @@ Contribution -
 2.Wrote and formatted Github README description in Markdown language.
 3.Made the project demo video and published it on Youtube.
 
-**Short summary of the project :**
+**Short summary of the Back-end Capstone Project :**
 
 Created an application using MongoDB , NodeJS and expressjs to get the array of subscribers from the data present in MongoDB.
 

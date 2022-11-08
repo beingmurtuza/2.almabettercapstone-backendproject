@@ -1,5 +1,3 @@
-LINK -- https://grow.almabetter.com/web3/projects/Get-Youtube-Subscribers
-
 BACKEND CAPSTONE PROJECT - **Team of Sri Srinivasan S and Murtuza Bharmal** - Cohort Satoshi
 
 Member 1
@@ -21,7 +19,7 @@ Contribution -
 3.Made the project demo video and published it on Youtube.
 
 
-short summary of your Capstone project :
+Short summary of your Capstone project :
 
 Created an application using MongoDB , NodeJS and expressjs to get the array of subscribers from the data present in MongoDB.
 

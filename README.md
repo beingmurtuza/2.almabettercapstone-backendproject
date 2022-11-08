@@ -1,7 +1,5 @@
 # Get YouTube Subscribers - Backend Capstone Project by Sri Srinivasan S and Murtuza Bharmal
 
-LINK -- https://grow.almabetter.com/web3/projects/Get-Youtube-Subscribers
-
 BACKEND CAPSTONE PROJECT - **Team of Sri Srinivasan S and Murtuza Bharmal** - Cohort Satoshi
 
 Member 1
@@ -22,13 +20,14 @@ Contribution -
 2.Wrote and formatted Github README description in Markdown language.
 3.Made the project demo video and published it on Youtube.
 
-
-short summary of your Capstone project :
+**Short summary of the project :**
 
 Created an application using MongoDB , NodeJS and expressjs to get the array of subscribers from the data present in MongoDB.
 
 => Initially, all the dependencies and node modules are installed using the “npm install” command. 
+
 => Then, run the “node src/createDatabase.js” to store the dummy data from data.js file to your local MongoDB server in your computer. 
+
 => At last, run “node src/index.js” or “npm start” to start the backend server.
 
 We’ve used 3 different main http requests for Searching the data in the database.
@@ -40,6 +39,3 @@ We’ve used 3 different main http requests for Searching the data in the databa
 3. GET http://localhost:3000/subscribers/names => request is used to get an array of all subscribers with only name and subscribedChannel fields from the database.
 
 4. GET http://localhost:3000/subscribers/:id => request is used to get a particular user from the database,client need to replace the  :id is replaced by the user’s id in the url to get particular data from the databases.
-
-
-

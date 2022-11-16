@@ -1,3 +1,5 @@
+Get YouTube Subscribers - Backend Capstone Project by Sri Srinivasan S and Murtuza Bharmal
+
 BACKEND CAPSTONE PROJECT - **Team of Sri Srinivasan S and Murtuza Bharmal** - Cohort Satoshi
 
 Member 1
@@ -18,7 +20,6 @@ Contribution -
 2.Wrote and formatted Github README description in Markdown language.
 3.Made the project demo video and published it on Youtube.
 
-
 **Short summary of the Back-end Capstone Project :**
 
 Created an application using MongoDB , NodeJS and expressjs to get the array of subscribers from the data present in MongoDB.
@@ -31,13 +32,10 @@ Created an application using MongoDB , NodeJS and expressjs to get the array of 
 
 We’ve used 3 different main http requests for Searching the data in the database.
 
-1. GET http://localhost:3000/ => Which is used to Display the written message on the homepage to the client.
+1. GET http://localhost:3000/ =>  which is used to Display the written message on the homepage to the client.
 
-2. GET http://localhost:3000/subscribers => Request is used to get an array of all subscribers from the database.
+2. GET http://localhost:3000/subscribers => request is used to get an array of all subscribers from the database.
 
-3. GET http://localhost:3000/subscribers/names => Request is used to get an array of all subscribers with only name and subscribedChannel fields from the database.
+3. GET http://localhost:3000/subscribers/names => request is used to get an array of all subscribers with only name and subscribedChannel fields from the database.
 
-4. GET http://localhost:3000/subscribers/:id => Request is used to get a particular user from the database,client need to replace the  :id is replaced by the user’s id in the url to get particular data from the databases.
-
-
-
+4. GET http://localhost:3000/subscribers/:id => request is used to get a particular user from the database,client need to replace the  :id is replaced by the user’s id in the url to get particular data from the databases.

@@ -6,7 +6,7 @@ app.use(express.json());
 
 // Display the written message on the homepage to the client.
 app.get("/", (req, res) => {
-  res.json("Hello Backend Project - Sri Srinivasan S & Murtuza Bharmal!");
+  res.json("Hello Backend Project - Sri Srinivasan & Murtuza Bharmal!");
 });
 
 // 1. Get an array of all subscribers from the database
